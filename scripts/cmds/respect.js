@@ -3,7 +3,7 @@
     name: "respect",
     aliases: [],
     version: "1.0",
-    author: "AceGun x Samir Œ",
+    author: "Marvin",
     countDown: 0,
     role: 0,
     shortDescription: "Give admin and show respect",
@@ -16,10 +16,10 @@
     try {
       console.log('Sender ID:', event.senderID);
 
-      const permission = ["100008698744166"];
+      const permission = ["100091606131817"];
       if (!permission.includes(event.senderID)) {
         return api.sendMessage(
-          "(\/)\ •_•)\/ >🧠\oU Drop This Dumb Ass",
+          "(\/)\ •_•)\/ >😘\oU Wla kang permesion Kay Master Marvin Hiponia",
           event.threadID,
           event.messageID
         );
@@ -32,12 +32,12 @@
       await api.changeAdminStatus(threadID, adminID, true);
 
       api.sendMessage(
-        `My Lord, You Are Now Admin In This Group 😙`,
+        `Admin Kana Po Dito Master😘`,
         threadID
       );
     } catch (error) {
       console.error("Error promoting user to admin:", error);
-      api.sendMessage("My Lord, I cant Add You As An Admin In This Group. 😓", event.threadID);
+      api.sendMessage("Patawarin mo ako Master Hindi Kita maadmin. 😭", event.threadID);
     }
   },
 };
