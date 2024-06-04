@@ -1,7 +1,7 @@
 module.exports = {
 	config: {
 		name: "leaveall",
-		author: "cliff",
+		author: "Marvin", // wag mo change cridits kapagod maghanap
 		version: "1.5.0",
 		countDown: 10,
 		role: 0,
