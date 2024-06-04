@@ -4,7 +4,7 @@ const axios = require('axios');
 module.exports = {
 	config: {
 		name: "besh",
-		author: "Cliff", // api by bungdas
+		author: "Marvin", // api by bungdas
 		version: "2.0",
 		cooldowns: 0,
 		role: 0,
@@ -39,6 +39,10 @@ module.exports = {
 				"kumusta araw mo, bes? 😄",
 				"miss mo ba ako, bes? 😅",
 				"bakit bes liligawan mona ako? 😨"
+				"oii besh balita ko may gusto ka sa owner ko? 🤭",
+				"Luh besh bat moko hinahanap crush muna yata ako besh? 🫣",
+				"oii oii oii beshie ko hanap ako miss you besh? 😚",
+				"oii besh nabalitaan ko ang rupok mo daw? 😑",
 			];
 			const randomResponse = responses[Math.floor(Math.random() * responses.length)];
 			api.sendMessage(randomResponse, event.threadID, event.messageID);
