@@ -4,7 +4,7 @@ module.exports = {
 	config: {
 		name: 'npm',
 		version: '2.1.0',
-		author: 'Cliff', // do not change credits
+		author: 'Marvin', // pwedi mo change cridits basta kasali name ko
 		countDown: 5,
 		role: 0,
 		shortDescription: 'Get info on Npm package',
