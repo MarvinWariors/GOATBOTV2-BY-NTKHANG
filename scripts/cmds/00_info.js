@@ -15,12 +15,12 @@ module.exports = {
 		envConfig: {}
 	},
 	onStart: async function ({ message }) {
-		const botName = "Alexander";
-		const botPrefix = "!";
+		const botName = "Mayumi Bot";
+		const botPrefix = "*";
 		const authorName = "Marvin";
 		const ownAge = "20";
 		const teamName = "Github team";
-		const authorFB = "https://www.facebook.com/profile.php?id=100091606131817";
+		const authorFB = "https://www.facebook.com/profile.php?id=61560386714149";
 		const authorInsta = "Thead469";
 		const tikTok = "https://www.tiktok.com/@marvin.hiponia?_t=8mugGJ7E0tW&_r=1";
 		const urls = JSON.parse(fs.readFileSync('marvin.json'));
