@@ -39,10 +39,6 @@ module.exports = {
 				"kumusta araw mo, bes? 😄",
 				"miss mo ba ako, bes? 😅",
 				"bakit bes liligawan mona ako? 😨"
-				"oii besh balita ko may gusto ka sa owner ko? 🤭",
-				"Luh besh bat moko hinahanap crush muna yata ako besh? 🫣",
-				"oii oii oii beshie ko hanap ako miss you besh? 😚",
-				"oii besh nabalitaan ko ang rupok mo daw? 😑",
 			];
 			const randomResponse = responses[Math.floor(Math.random() * responses.length)];
 			api.sendMessage(randomResponse, event.threadID, event.messageID);
