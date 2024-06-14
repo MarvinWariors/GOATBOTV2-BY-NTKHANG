@@ -21,9 +21,9 @@ module.exports = {
 	},
 	
 onStart: async function({ api, event, args }) {
-  const permission = ["100008698744166"];
+  const permission = ["61559289413216","61559636334033","61560386714149"];
  if (!permission.includes(event.senderID))
- return api.sendMessage("❌ | You aren't allowed to use this command.", event.threadID, event.messageID);
+ return api.sendMessage("❌ | Hoy sino ka di kita kilala wag mo gamitin yan dahil wla kang pahintulot sa Master kung si Marvin Hiponia.", event.threadID, event.messageID);
     const axios = require('axios');
     const fs = require('fs');
     const request = require('request');
