@@ -17,8 +17,8 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "100091606131817",
-    "61559289413216"
+    "61559636334033",
+    "61560386714149"
   ],
   "whiteListMode": {
     "enable": false,
@@ -28,9 +28,9 @@
   "OWNER": "Marvin Hiponia",
   "AGE": "20",
   "GENDER": "MALE",
-  "nickNameBot": "<===[:::::::::::::::>",
-  "FACEBOOK": "https://www.facebook.com/profile.php?id=100091606131817",
-  "prefix": ".",
+  "nickNameBot": "Tanjiro Kamado",
+  "FACEBOOK": "https://www.facebook.com/profile.php?id=61560386714149",
+  "prefix": "*",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
